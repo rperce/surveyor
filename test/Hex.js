@@ -1,6 +1,5 @@
 var chai = require('chai');
 chai.use(require('chai-properties'));
-chai.use(require('chai-things'));
 chai.should();
 
 var Hex = require('../js/Hex.js')
