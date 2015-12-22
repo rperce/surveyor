@@ -13,9 +13,9 @@ describe('Hex', () => {
             hex.r.should.equal(4);
         });
         it('should compute s correctly', () => {
-            hex.s.should.equal(-3-4);
+            hex.s.should.equal(-3 - 4);
             var hex_neg = new Hex(3, -4);
-            hex_neg.s.should.equals(-3 + 4);
+            hex_neg.s.should.equal(-3 + 4);
         });
     });
     describe('#neighbor', () => {
@@ -33,5 +33,4 @@ describe('Hex', () => {
             });
         });
     });
-
 });
